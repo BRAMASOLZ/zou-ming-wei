@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>致我的小可爱</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #ff69b4;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            animation: bounce 2s infinite;
+        }
+        p {
+            color: #555;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #ff69b4;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: spin 10s linear infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>致我的小可爱</h1>
+        <p>邹明唯</p>
+        <img src="C:/Users/13243/Desktop/abd727becbc402b149f611ac946c21c.jpg" alt="Cute Image">
+    </div>
+</body>
+</html>
